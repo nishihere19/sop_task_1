@@ -24,3 +24,53 @@ git commit -am"added log.txt to nishi_agrawal"
 git push origin nishi_agrawal
 
 (Pushed changes using username and password for GitHub)
+
+git branch ans
+
+git branch exp
+
+(Created both branches)
+
+git checkout ans
+
+touch ans.txt
+
+git add ans.txt
+
+git commit -m"added ans.txt to ans"
+
+git push origin ans
+
+git checkout exp
+
+touch ans.txt
+
+git add ans.txt
+
+git commit -m"added ans.txt to exp"
+
+git push origin exp
+
+git checkout ans
+
+git merge exp
+
+(Here I got conflict where I had to manually change the text and save it)
+
+git commit -m"conflict resolved"
+
+git push origin ans
+
+git checkout nishi_agrawal
+
+git merge ans
+
+git push origin nishi_agrawal
+
+mv log.txt nishi_agrawal.txt
+
+(Change the name)
+
+git commit -m"name changed"
+
+git push origin nishi_agrawal
