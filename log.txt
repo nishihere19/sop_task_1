@@ -1,0 +1,26 @@
+Till Now I have used these commands
+
+git clone https://github.com/nishihere19/sop_task_1
+
+(After forking the repository, cloned it in a new folder)
+
+cd sop_task_1/
+(For changing directory to the repo)
+
+git checkout -b nishi_agrawal
+
+(Created a new branch)
+
+touch log.txt
+
+git add log.txt
+
+(Added log.txt to ans)
+
+git commit -am"added log.txt to nishi_agrawal"
+
+(commited changes)
+
+git push origin nishi_agrawal
+
+(Pushed changes using username and password for GitHub)
